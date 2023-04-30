@@ -1,0 +1,136 @@
+input[type="text"] {
+  padding: 10px;
+  border: 2px solid #00ffc8;
+  background-color: #161616;
+  color: #00ffc8;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #00ffc8;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border: 2px solid #00e6b8;
+  box-shadow: 0 0 5px #00e6b8;
+}
+
+.cyberpunk-border {
+  position: relative;
+  padding: 10px;
+  border: 2px solid #00ffc8;
+  background-color: #161616;
+  color: #00ffc8;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #00ffc8;
+  outline: none;
+}
+
+.cyberpunk-border:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #00ffc8;
+  box-sizing: border-box;
+}
+
+.cyberpunk-border:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 1px solid #00e6b8;
+  box-sizing: border-box;
+}
+
+.cyberpunk-border .led-light {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ff3d3d;
+  margin: 0 5px;
+  box-shadow: 0 0 10px #ff3d3d, 0 0 20px #ff3d3d, 0 0 30px #ff3d3d;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    box-shadow: 0 0 10px #ff3d3d, 0 0 20px #ff3d3d, 0 0 30px #ff3d3d, 0 0 40px #ff3d3d, 0 0 70px #ff3d3d;
+  }
+}
+
+.cyberpunk-button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ffc8;
+  color: #161616;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #00ffc8;
+  outline: none;
+}
+
+.cyberpunk-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #00ffc8;
+  box-sizing: border-box;
+}
+
+.cyberpunk-button:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  border: 1px solid #00e6b8;
+  box-sizing: border-box;
+}
+
+.cyberpunk-button:hover {
+  background-color: #161616;
+  color: #00ffc8;
+  cursor: pointer;
+}
+
+.cyberpunk-button:hover .led-light {
+  background-color: #ff3d3d;
+  box-shadow: 0 0 10px #ff3d3d, 0 0 20px #ff3d3d, 0 0 30px #ff3d3d, 0 0 40px #ff3d3d, 0 0 70px #ff3d3d;
+}
+
+.cyberpunk-button .led-light {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #161616;
+  margin: 0 5px;
+  box-shadow: 0 0 10px #00ffc8;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    box-shadow: 0 0 10px #ff3d3d, 0 0 20px #ff3d3d, 0 0 30px #ff3d3d, 0 0 40px #ff3d3d, 0 0 70px #ff3d3d;
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>オリキャラ図鑑</title>
+	<meta charset="utf-8">
+  <meta property="og:title" content="キャラクター図鑑">
+  <meta property="og:image" content="https://minntogames.github.io/image/m.gif" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="https://minntogames.github.io/image/m.gif">
+</head>
+<body style="background-color: #003b2c">
+	<h1 style="color: #00ffc8">図鑑</h1>
+  <div class="cyberpunk-border">
+    <h2>使用方法(検索方法)</h2>
+    <p>キャラクターの名前またはキーワードで検索できます（例：ドクター）</p>
+    <p>下のボタンは入力補助です</p>
+  </div>
+  <button onclick="fillInput(`無能力者`)">無能力者</button>　<button onclick="fillInput(`第一世界`)">第一世界</button>
+	<p style="color: #00ffc8">検索: <input type="text" id="search-input">　<button class="cyberpunk-button" onclick="fillInput(``)">✕</button></p>
+	<div id="results"></div>
+  
+	<script src="main.js"></script>
+</body>
+</html>

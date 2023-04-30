@@ -1,0 +1,72 @@
+[
+  {
+    "name": ["X・ドクター", "xdoctor", "どくたー"],
+    "tag": ["第一世界", "棒人間", "能力者", "科学者"],
+    "ability": "見た物の技を使える能力",
+    "description": "白黒の道化師な見た目の棒人間。<br>友人の黒田適当と一緒に暮らしている。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+  {
+    "name": ["黒田 適当", "くろだてきとう"],
+    "tag": ["第一世界", "棒人間", "能力者", "格闘家"],
+    "ability": "武闘家",
+    "description": "黄色い角に赤い帽子、オレンジ色のバンダナをつけた棒人間。<br>過去に目を失っている。<br>って言っているが実は目は普通に見える。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+  {
+    "name": ["無敵勇者棒人間", "むてきゆうしゃぼうにんげん"],
+    "tag": ["第一世界", "棒人間", "能力者", "勇者"],
+    "ability": "主人公補正(極)",
+    "description": "1番最初に登場した棒人間。<br>現在は出番が少なくて(´・ω・｀)になっている",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+  {
+    "name": ["ガンマスター・ハンマーマスター", "がんますたーはんまーますたー"],
+    "tag": ["第一世界", "棒人間", "能力者", "ガンナー"],
+    "ability": "様々な銃を扱える",
+    "description": "銃とハンマーをメインとする戦闘家。<br>今は亡き兄を目指している。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+  {
+    "name": ["パンチマン", "ぱんちまん"],
+    "tag": ["第一世界", "棒人間", "能力者", "格闘家"],
+    "ability": "様々な銃を扱える",
+    "description": "銃とハンマーをメインとする戦闘家。<br>今は亡き兄を目指している。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+    {
+    "name": ["ドクター", "どくたー"],
+    "tag": ["第一世界", "人間", "能力者", "王権"],
+    "ability": "相手の生気を奪い自分のものにできる",
+    "description": "元棒人間であった。<br>今はギャラクティックカンパニーに所属している。<br>王権6位。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+  {
+    "name": ["棒Ns", "ぼうんず"],
+    "tag": ["第一世界", "棒人間", "能力者"],
+    "ability": "重力操作",
+    "description": "いつもニヤニヤと笑っている棒人間。<br>生まれつき首がとれやすい。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+  {
+    "name": ["カッター", "かったー"],
+    "tag": ["第一世界", "棒人間", "能力者"],
+    "ability": "自由自在にカッターを生み出せる",
+    "description": "頭にカッターがくっついている棒人間。<br>ちなみにそのカッターは外せる。<br>大学教師をやっている。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  }, 
+  {
+    "name": ["コック", "こっく"],
+    "tag": ["第一世界", "棒人間", "無能力者"],
+    "ability": "なし",
+    "description": "料理を専門としてる棒人間。<br>よく料理包丁を常備している。危ない。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  },
+  {
+    "name": ["カ・ラーテ", "からーて"],
+    "tag": ["第一世界", "棒人間", "無能力者", "格闘家", "五王"],
+    "ability": "なし",
+    "description": "格闘家命でやってる棒人間。",
+    "image": "https://minntogames.github.io/minnntogames.github.io2/sample.png"
+  }
+]
